@@ -8,8 +8,7 @@ const DetailsView =(props:any)=>{
         <div className="float-right" >
           <div className="alert alert-primary" role="alert">
               Tree Name:<h2>{props.data}</h2>
-        </div>
-          
+            </div> 
         </div>
        
     ) 
