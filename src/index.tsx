@@ -4,11 +4,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Header from './components/Header';
-import DetailsView from './components/detailsView';
 import reportWebVitals from './reportWebVitals';
 import { registerLicense } from '@syncfusion/ej2-base';
-import {Row,Col,Container} from 'react-bootstrap';
-//import { ColumnDirective, ColumnsDirective, TreeGridComponent } from '@syncfusion/ej2-react-treegrid';
+import {Row,Col} from 'react-bootstrap';
+
 
 
 registerLicense('ORg4AjUWIQA/Gnt2VVhhQlFaclhJW3xMYVF2R2FJfl96cFRMZF5BNQtUQF1hS35WdkNiWHtcdHVVRGBU')
